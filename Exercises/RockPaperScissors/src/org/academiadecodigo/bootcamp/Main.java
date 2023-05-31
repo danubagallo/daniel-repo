@@ -5,7 +5,7 @@ public class Main {
         Players player1 = new Players("Daniel");
         Players player2 = new Players("Fernando");
 
-        int maxGames = 10;
+        int maxGames = 1000000;
 
         System.out.println("--- GAME STARTS ---");
 

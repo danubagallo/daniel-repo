@@ -11,7 +11,7 @@ public class MainGame {
         int guess1 = -1;
         int guess2 = -1;
 
-        Player.guessRange = 100; // MAX VALUE
+        Player.guessRange = 1000000; // MAX VALUE
 
         System.out.println("--- GAME STARTS ---");
 
