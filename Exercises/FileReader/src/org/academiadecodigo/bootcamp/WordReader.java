@@ -7,7 +7,6 @@ import java.io.IOException;
 import java.util.Iterator;
 
 public class WordReader implements Iterable<String> {
-    private FileReader fileReader;
     private BufferedReader bufferedReader;
 
     String line = "";
@@ -15,8 +14,8 @@ public class WordReader implements Iterable<String> {
 
 
     public WordReader(String file) throws FileNotFoundException {
-        fileReader = new FileReader(file);
-        bufferedReader = new BufferedReader(fileReader);
+
+        bufferedReader = new BufferedReader(new FileReader(file));
     }
 
 
