@@ -16,8 +16,8 @@ public class WebServer {
 
     private static final Logger logger = Logger.getLogger(WebServer.class.getName());
 
-    public static final String DOCUMENT_ROOT = "www/";
-    public static final int DEFAULT_PORT = 8086;
+    public static final String DOCUMENT_ROOT = "/Users/codecadet/Documents/daniel-gallo-repo/Exercises/ep-02-web/simple-web-server/www";
+    public static final int DEFAULT_PORT = 8085;
 
     private ServerSocket bindSocket = null;
 
